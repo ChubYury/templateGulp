@@ -30,7 +30,7 @@ export const path = {
     },
     watch: {
         /************************ */
-        html:`${srcFolder}/pug/templates/**/*.pug`,
+        html:`${srcFolder}/pug/**/*.pug`,
         /************************ */
         scss: `${srcFolder}/scss/**/*.scss`,
         js: `${srcFolder}/js/**/*.js`,

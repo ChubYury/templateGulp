@@ -1,17 +1,21 @@
-html
-    include block/head
-        title Главная
-    body 
-        include block/header
-        main.page 
-            h1 hello
-            div 
-                img(src="@img/cover.jpg", alt="")
-            div  
-                img(src="@img/cat.jpg", alt="")
-            div
-                img(src="@img/txt_icon.svg", alt="")
-            div(class="icon-box")
-                img(src="./images/icons/icons.svg#allergy-food-label-5-svgrepo-com" class="svg-basic-connection-internet-2-svgrepo-com-dims")
-        include block/footer
-        script(src="js/app.min.js")
+extends ./template
+
+block title
+    title=  "Главная"
+    //- include block/head
+    //-     title Главная
+ 
+    //- include block/header
+block main
+    main.page 
+    h1 hello
+    div 
+        img(src="@img/cover.jpg", alt="")
+    +cat()
+    div
+        img(src="@img/txt_icon.svg", alt="")
+    div(class="icon-box")
+        img(src="./images/icons/icons.svg#allergy-food-label-5-svgrepo-com" class="svg-basic-connection-internet-2-svgrepo-com-dims")
+block footer 
+    include block/footer
+//- script(src="js/app.min.js")
