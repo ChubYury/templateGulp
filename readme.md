@@ -4,7 +4,7 @@
 
 - Unzip to project folder
 
-- run "npm i" in the project folder
+- Run "npm i" in the project folder
 
 - And enjoy ;-)
 
