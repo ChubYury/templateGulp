@@ -1,14 +1,14 @@
 extends ./template
 
 block title
-    title=  "Главная"
+    title=  "1Главная"
     //- include block/head
     //-     title Главная
- 
-    //- include block/header
+block header 
+    include block/header
 block main
     main.page 
-    h1 hello
+    h1 hello 111
     div 
         img(src="@img/cover.jpg", alt="")
     +cat()

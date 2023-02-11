@@ -1,19 +1,7 @@
 include ../mixins/index
 <!DOCTYPE html>
 html(lang='ru')
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0,  maximum-scale=1, user-scalable=0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    meta(name="theme-color" content="#8F67A4")
-    link(
-      rel="stylesheet",
-      type="text/css",
-      media="all",
-      href='./css/style.min.css'
-    )
-    block title
-     
+  include block/head
     
   body
     block header
@@ -29,5 +17,3 @@ html(lang='ru')
 
     //- block modal 
     //-   include ./element/modal
-
-  script(type="text/javascript", src='./js/app.min.js')
