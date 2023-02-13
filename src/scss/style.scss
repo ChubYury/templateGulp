@@ -1,23 +1,14 @@
-@import 'fonts';
+//******* Build files ***********
+@import 'normalize';
+// @import 'fonts';
+// @import 'variables';
 
-body {
-    background: rgb(46, 90, 46);
-    h1 {
-        color: red;
-    }
-    // background: url("@img/cover.img") 0 0 no-repeat;
-}
+// //****** Project files ********
+// @import 'interface';
+// @import 'blocks';
+// @import 'home';
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 20px;
-    }
-    
-}
+// //****** Grid ****************
+// @import 'grid';
 
-@media (max-width: 768px) {
-    body{
-        background: rgb(127, 141, 127);
-    }
-    
-}
+
