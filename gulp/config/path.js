@@ -32,7 +32,7 @@ export const path = {
         /************************ */
         html:`${srcFolder}/pug/**/*.pug`,
         /************************ */
-        scss: `${srcFolder}/scss/**/*.scss`,
+        scss: `${srcFolder}/scss/**/*.{scss,sass}`,
         js: `${srcFolder}/js/**/*.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,svg,icon}`,
         files: `${srcFolder}/files/**/*.*`
